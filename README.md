@@ -125,7 +125,7 @@ $ git pull
 $ git checkout -b + "nome da branch"
 ```
 
-### Escolher a branch que quer alterar
+### Alternando entre branchs
 
 ```bash
 $ git checkout + "nome da branch ex main, teste, funcionalidade nova"
