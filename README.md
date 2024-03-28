@@ -20,9 +20,13 @@ $ git init
 ```bash
 $ git remote add origin + link repositorio
 ```
-### Cloar repositorio
+### Clonar repositorio
 ```bash
 $ git clone link do repositorio
+```
+### Clonar uma branch especifica do repositorio
+```bash
+$ git clone link do repositorio --branch + nome da branch --single-branch
 ```
 ### Verificar estado dos arquivos/diretórios
 ```bash
@@ -113,4 +117,36 @@ $ git push -u origin main
 
 ```bash
 $ git pull
+```
+
+### Criando uma branch
+
+```bash
+$ git checkout -b + "nome da branch"
+```
+
+### Escolher a branch que quer alterar
+
+```bash
+$ git checkout + "nome da branch ex main, teste, funcionalidade nova"
+```
+
+### Listar branchs existentes
+```bash
+$ git branch
+```
+
+### Listar o último commit de cada branch 
+```bash
+$ git branch -v
+```
+
+### Mesclando branchs (merge)
+```bash
+$ git merge + "nome da branch que queira mesclar a branch main/principal"
+```
+
+### Excluindo branchs
+```bash
+$ git branch -d + "nome da branch"
 ```
