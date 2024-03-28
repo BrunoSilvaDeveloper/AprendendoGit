@@ -45,7 +45,7 @@ $ git clone link do repositorio --branch + nome da branch --single-branch
 ```bash
 $ git status
 ```
-- Untracked files: arquivos que não subiram para o git
+##### Untracked files: arquivos que não subiram para o git
 
 
 ## Adicionar arquivo/diretório na area de preparacao
