@@ -19,24 +19,24 @@ $ git config --list
 
 ## Configurações do repositório
 
-### Inicialize um repositório Git no diretório escolhido:
+##### Inicialize um repositório Git no diretório escolhido:
 ```bash
 $ git init
 ```
 
-### Conecte o repositório local com o repositório remoto:
+##### Conecte o repositório local com o repositório remoto:
 ```bash
 $ git remote add origin + link repositorio
 ```
 
 ## Clonando repositórios
 
-### Clonar repositorio
+##### Clonar repositorio
 ```bash
 $ git clone link do repositorio
 ```
 
-### Clonar uma branch especifica do repositorio
+##### Clonar uma branch especifica do repositorio
 ```bash
 $ git clone link do repositorio --branch + nome da branch --single-branch
 ```
@@ -50,46 +50,46 @@ $ git status
 
 ## Adicionar arquivo/diretório na area de preparacao
 
-### Adicionar um arquivo em específico
+##### Adicionar um arquivo em específico
 ```bash
 $ git add meu_arquivo.txt
 ```
 
-### Adicionar um diretório em específico
+##### Adicionar um diretório em específico
 ```bash
 $ git add meu_diretorio
 ```
 
-### Adicionar todos os arquivos/diretórios
+##### Adicionar todos os arquivos/diretórios
 ```bash
 $ git add .
 ```	
 
 ## Comitar arquivo/diretório
 
-### Comitar um arquivo
+##### Comitar um arquivo
 ```bash
 $ git commit meu_arquivo.txt
 ```	
 
-### Comitar vários arquivos
+##### Comitar vários arquivos
 ```bash
 $ git commit meu_arquivo.txt meu_outro_arquivo.txt
 ```
 
-### Comitar informando mensagem
+##### Comitar informando mensagem
 ```bash
 $ git commit meuarquivo.txt -m "minha mensagem de commit"
 ```
 
-### Remover arquivo/diretório
+## Remover arquivo/diretório
 
-### Remover arquivo
+##### Remover arquivo
 ```bash
 $ git rm meu_arquivo.txt
 ```
 
-### Remover diretório
+##### Remover diretório
 ```bash
 $ git rm -r diretorio
 ```
@@ -103,7 +103,7 @@ $ git log
 
 ## Desfazendo Alterações no Repositório Local
 
-### Como alterar a mensagem do último commit
+##### Como alterar a mensagem do último commit
 ```bash
 $ git commit --amend
 ```
@@ -113,22 +113,22 @@ Alterando a mensagem sem abrir o editor:
 $ git commit --amend –m"nova mensagem"
 ```
 
-### Como desfazer um commit
+##### Como desfazer um commit
 ```bash
 $ git reset
 ```
 
-### Os arquivos dos commits posteriores a esse voltam para a area de preparacao
+##### Os arquivos dos commits posteriores a esse voltam para a area de preparacao
 ```bash
 $ git reset --soft + codigo hash
 ```
 
-### Os arquivos dos commits posteriores a esse voltam para o estado de untracked files, nao foram subido para o repositorio local
+##### Os arquivos dos commits posteriores a esse voltam para o estado de untracked files, nao foram subido para o repositorio local
 ```bash
 $ git reset --mixed + codigo hash
 ```
 
-### Os arquivos dos commits posteriores a esse sao totalmente excluidos
+##### Os arquivos dos commits posteriores a esse sao totalmente excluidos
 ```bash
 $ git reset --hard + codigo hash
 ```
@@ -147,34 +147,34 @@ $ git pull
 
 ## Branchs
 
-### Criando uma branch
+##### Criando uma branch
 
 ```bash
 $ git checkout -b + "nome da branch"
 ```
 
-### Alternando entre branchs
+##### Alternando entre branchs
 
 ```bash
 $ git checkout + "nome da branch ex main, teste, funcionalidade nova"
 ```
 
-### Listar branchs existentes
+##### Listar branchs existentes
 ```bash
 $ git branch
 ```
 
-### Listar o último commit de cada branch 
+##### Listar o último commit de cada branch 
 ```bash
 $ git branch -v
 ```
 
-### Mesclando branchs (merge)
+##### Mesclando branchs (merge)
 ```bash
 $ git merge + "nome da branch que queira mesclar a branch main/principal"
 ```
 
-### Excluindo branchs
+##### Excluindo branchs
 ```bash
 $ git branch -d + "nome da branch"
 ```
