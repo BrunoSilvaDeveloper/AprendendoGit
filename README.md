@@ -102,3 +102,15 @@ $ git reset --mixed + codigo hash
 ```bash
 $ git reset --hard + codigo hash
 ```
+
+### Commitando o repositorio ao gitHub
+
+```bash
+$ git push -u origin main
+```
+
+### Atualizando o repositório local com as informações do github
+
+```bash
+$ git pull
+```
